@@ -44,13 +44,13 @@ class neural_network:
 
 
 	"""
-		This is where the network learns by using backpropogation to determine
+		This is where the network learns by using backpropagation to determine
 		where error came from and update the weights accordingly. This is done
 		by assigning blame to typicall all the nodes (some nodes have more 
 		blame than others). Once it is known how wrong each node is, we adjust
 		their weights.
 
-		The overall idea of backpropogation is to use gradient decent. This
+		The overall idea of backpropagation is to use gradient decent. This
 		means to imagine a graph of the error of a paticular network. The 
 		number of dimensions of the graph are the number of weights plus one
 		for error at that point. You can imagine that each point on this graph
